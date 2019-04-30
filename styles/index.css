@@ -26,6 +26,7 @@ nav {
 
 .nav-link:hover {
     text-decoration: underline;
+    color: #002D72;
 }
 
 footer {
@@ -97,7 +98,7 @@ h1 {
 }
 
 .project-wrapper {
-    border: 3px solid #063B67;
+    border: 3px solid #002D72;
     border-radius: 5px;
     padding: 10px 10px;
     margin: 10px 0 50px 0;
@@ -127,23 +128,23 @@ h1 {
     font-family: 'Poppins', sans-serif;
     color: #ffffff;
     font-size: 20px;
-    background: #01213b;
+    background: #002D72;
     padding: 5px 16px;
     text-decoration: none;
     border: none;
     min-width: 134px;
-    border: 2px solid #01213b;
+    border: 2px solid #002D72;
   }
   
   .button-dark:hover {
     cursor: pointer;
-    background-color: #063B67;
-    border: 2px solid #063B67;
+    background-color: #FF5910;
+    border: 2px solid #FF5910;
   }
   
   .button-light {
     font-family: 'Poppins', sans-serif;
-    color: #01213b;
+    color: #002D72;
     font-size: 20px;
     background: #ffffff;
     padding: 5px 16px;
@@ -151,14 +152,14 @@ h1 {
     border: none;
     min-width: 134px;
     margin-left: 10px;
-    border: 2px solid #01213b;
+    border: 2px solid #FF5910;
   }
   
   .button-light:hover {
     cursor: pointer;
     color: #ffffff;
-    background-color: #063B67;
-    border: 2px solid #063B67;
+    background-color: #002D72;
+    border: 2px solid #002D72;
   }
   
   .mobile-landing-images {
@@ -235,7 +236,7 @@ h1 {
         display: block;
         text-align: center;
         margin: 0 auto;
-        border: 3px solid #063B67;
+        border: 3px solid #002D72;
         border-radius: 5px;
     }
 
