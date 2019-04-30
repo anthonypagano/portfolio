@@ -2,52 +2,99 @@
 <html lang="en">
   <head>
       <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
       <title>Anthony Pagano Portfolio</title>
+      <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">   
       <link href="styles/index.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
     <nav role="navigation">
         <ul>
-            <li class="home-button">Anthony Pagano</li>
-            <li class="projects-button">Projects</li>
-            <li class="about-button">About</li>
+            <li class="home-button"><a class="nav-link">Anthony Pagano</a></li>
+            <li class="projects-button"><a class="nav-link">Projects</a></li>
+            <li class="about-button"><a class="nav-link">About</a></li>
         </ul>
     </nav>      
     <main>  
         <section class="home">
-            <p class="middle">I am a Web Developer with 2 decades of web experience who is currently based in the Fairfield County Connecticut area. 
+            <h1>You CAN teach the old<br />developer new tricks!</h1>
+            <p class="about-copy">I am a Web Developer with 2 decades of front and back end web experience who is currently based in the Fairfield County Connecticut area. 
                 My interests include music, concerts, sports, technology, craft beer and traveling the country.</p>
+            <ul class="buttons">
+                <li><a href="mailto:apagano51@gmail.com"><button type="button" class="button-dark">Email me</button></a></li>
+                <li class="projects-button"><button type="button" class="button-light">View projects</button></li>
+            </ul>
         </section>
-        <section class="projects" style="overflow-y: scroll; overflow-x: hidden;
-        max-height: 80vh;">
+        <section class="projects">
             <div class="project-wrapper">
+                <p class="project-details">The Hop Index</p>
                 <img src="images/hopindex-landing.png" alt="The Hop Index" class="landing-images" />
-                <p>The Hop Index</p>
-                <p><a href="https://shrouded-sierra-74421.herokuapp.com/" target="_blank">Live</a></p>
-                <p><a href="https://github.com/anthonypagano/hopindex-client" target="_blank">Github</a></p>
+                <img src="images/hopindex-mobile.png" alt="The Hop Index" class="mobile-landing-images" />
+                <p class="project-description">With the amazing amount of craft beers on the market it's tough to keep track of all of the ones I've tried. The Hop Index allows me to do just that.</p>
+                <ul class="tech-used">
+                    <li>Front End: HTML5, CSS3, JavaScript, Enzyme, React, Redux</li>
+                    <li>Back End: Chai, Express.js, Mocha, MongoDB, Mongoose, Node.js</li>
+                    <li>DB: mLab</li>
+                    <li>Hosting: Heroku</li>
+                    <li>CI / Build Server: Travis CI</li>
+                </ul>
+                <ul class="buttons">
+                    <li><a href="https://shrouded-sierra-74421.herokuapp.com/" target="_blank"><button type="button" class="button-dark">View Project</button></a></li>
+                    <li><a href="https://github.com/anthonypagano/hopindex-client" target="_blank"><button type="button" class="button-light">View Code</button></a></li>
+                </ul>                
             </div>
             <div class="project-wrapper">
+                <p class="project-details">Do I Have That Album?</p>
                 <img src="images/doIHaveThatAlbum-landing.png" alt="Do I Have That Album" class="landing-images" />
-                <p>Do I Have That Album?</p>
-                <p><a href="https://fast-wildwood-34655.herokuapp.com/" target="_blank">Live</a></p>
-                <p><a href="https://github.com/anthonypagano/node-capstone" target="_blank">Github</a></p>
+                <img src="images/doIHaveThatAlbum-mobile.png" alt="Do I Have That Album" class="mobile-landing-images" />
+                <p class="project-description">This app provides an easy way to log and keep track of albums in my music collection as not all of my music is digitized and or on my phone.</p>
+                <ul class="tech-used">
+                    <li>Front End: HTML5, CSS3, jQuery</li>
+                    <li>Back End: Chai, Express.js, Mocha, MongoDB, Mongoose, Node.js</li>
+                    <li>DB: mLab</li>
+                    <li>Hosting: Heroku</li>
+                    <li>CI / Build Server: Travis CI</li>
+                </ul>                
+                <ul class="buttons">
+                    <li><a href="https://fast-wildwood-34655.herokuapp.com/" target="_blank"><button type="button" class="button-dark">View Project</button></a></li>
+                    <li><a href="https://github.com/anthonypagano/node-capstone" target="_blank"><button type="button" class="button-light">View Code</button></a></li>
+                </ul>                                
             </div>
             <div class="project-wrapper">
+                <p class="project-details">Recipe Inspiration</p>
                 <img src="images/recipe-inspiration-landing.png" alt="Recipe Inspiration" class="landing-images" />
-                <p>Recipe Inspiration</p>
-                <p><a href="https://anthonypagano.github.io/recipe-inspiration/" target="_blank">Live</a></p>
-                <p><a href="https://github.com/anthonypagano/recipe-inspiration" target="_blank">Github</a></p>        
+                <img src="images/recipe-inspiration-mobile.png" alt="Recipe Inspiration" class="mobile-landing-images" />
+                <p class="project-description">Not sure what to make for dinner? Check out my Recipe Inspiration app that works with the Spoonacular API. Search for any 3 ingredients and the app will return some recipe ideas with links to the recipes and photos of each.</p>
+                <ul class="tech-used">
+                        <li>Front End: HTML, CSS, JavaScript, jQuery</li>
+                </ul>                
+                <ul class="buttons">
+                    <li><a href="https://anthonypagano.github.io/recipe-inspiration/" target="_blank"><button type="button" class="button-dark">View Project</button></a></li>
+                    <li><a href="https://github.com/anthonypagano/recipe-inspiration" target="_blank"><button type="button" class="button-light">View Code</button></a></li>
+                </ul>                                
             </div>
             <div class="project-wrapper">
+                <p class="project-details">NHRA Quiz App</p>
                 <img src="images/nhraQuizApp-landing.png" alt="NHRA Quiz App" class="landing-images" />
-                <p>NHRA Quiz App</p>
-                <p><a href="https://anthonypagano.github.io/quiz-app/" target="_blank">Live</a></p>
-                <p><a href="https://github.com/anthonypagano/quiz-app" target="_blank">Github</a></p>                        
+                <img src="images/nhraQuizApp-mobile.png" alt="NHRA Quiz App" class="mobile-landing-images" />
+                <p class="project-description">The NHRA Quiz App is a multiple choice app to show your knowledge of the NHRA.</p>
+                <ul class="tech-used">
+                        <li>Front End: HTML, CSS, jQuery</li>
+                </ul>
+                <ul class="buttons">
+                    <li><a href="https://anthonypagano.github.io/quiz-app/" target="_blank"><button type="button" class="button-dark">View Project</button></a></li>
+                    <li><a href="https://github.com/anthonypagano/quiz-app" target="_blank"><button type="button" class="button-light">View Code</button></a></li>
+                </ul>                                
             </div>
         </section>
         <section class="about">
-            <p class="middle">I was the kid growing up who always took apart his toys to see how they worked. This facinaton continued after I received my first computer as a gift in 1995. From there I began creating the most basic of web pages and haven't looked back since. In my professional experience I've spent a lot of time on the front end working with html, css, and javascript and all the nuances of browser and email client support. I actually started out on the backend writing SQL reports on a Unix based database. Most recently I worked for an event marketplace that supported a handfull of internal and external apps that were written in several languages including Classic ASP, VB.Net, C#, and React. At the end of 2018 however I decided it was time to head back to school and add to my skillset where I graduated from Thinkful's Full Stack Flex bootcamp and added Node and React to my skills portfolio.</p>
+            <p class="about-copy">I was the kid growing up who always took apart his toys to see how they worked. This facinaton continued after I received my first computer as a gift in 1995. From there I began creating the most basic of web pages and haven't looked back since. In my professional experience I've spent many years on the front end working with html, css, and javascript and all the nuances of browser and email client support. I actually started out on the backend writing SQL reports on a Unix based database. Most recently I worked for an event marketplace that supported a handfull of internal and external apps that were written in several languages including Classic ASP, VB.Net, C#, and React. At the end of 2018 I decided it was time to head back to school and strengthen my skillset where I graduated from Thinkful's Full Stack Flex bootcamp with an emphasis on Node and React. I am currently available and looking for new and exciting employment opportinities. Feel free to contact me through the links below.</p>
+            <ul class="about-links">
+                <li><a href="https://github.com/anthonypagano" target="_blank"><img src="images/git.png" alt="Github" /></a></li>
+                <li><a href="https://www.linkedin.com" target="_blank"><img src="images/linked-in.png" alt="Linked In" /></a></li>
+                <li><a href="mailto:apagano51@gmail.com"><img src="images/email.png" alt="Email" /></a></li>
+            </ul>
         </section>
     </main> 
     <footer>&#169;2019 Anthony Pagano</footer>       
